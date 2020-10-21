@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rect</title>
+</head>
+<body>
+    <ul>
+      <li id="vidas">
+        <img src="./vida1.png" id="vida1">
+        <img src="./vida1.png" id="vida2">
+        <img src="./vida1.png" id="vida3">
+      </li>
+      <li id="coins">
+        <img src="./coin.png" id="coin10">
+        <img src="./coin.png" id="coin9">
+        <img src="./coin.png" id="coin8">
+        <img src="./coin.png" id="coin7">
+        <img src="./coin.png" id="coin6">
+        <img src="./coin.png" id="coin5">
+        <img src="./coin.png" id="coin4">
+        <img src="./coin.png" id="coin3">
+        <img src="./coin.png" id="coin2">
+        <img src="./coin.png" id="coin1">
+      </li>
+    </ul>
+    <canvas id="canvas" width="930" height="450"></canvas>
+    <style>
+        body {
+          min-height: 97vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #556363
+        }
+        canvas {
+          position: absolute;
+          top: 75px;
+          border: 30px solid black;
+          display: block;
+          margin: 0 auto;
+        }
+        #vida1 {
+          display: inline;
+          position: absolute;
+          top: 6px;
+          left: 9.1rem;
+        }
+        #vida2 {
+          display: inline;
+          position: absolute;
+          top: 6px;
+          left: 13.3rem;     
+        }
+        #vida3 {
+          display: inline;
+          position: absolute;
+          top: 6px;
+          left: 17.5rem;
+        }
+        }
+        #coin1 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 44rem;
+        }
+        #coin2 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 46.5rem;
+        }
+        #coin3 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 49rem;
+        }
+        #coin4 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 51.5rem;
+        }
+        #coin5 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 54rem;
+        }
+        #coin6 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 56.5rem;
+        }
+        #coin7 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 59rem;
+        }
+        #coin8 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 61.5rem;
+        }
+        #coin9 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 64rem;
+        }
+        #coin10 {
+          display: none;
+          position: absolute;
+          top: 2px;
+          left: 66.5rem;
+        }
+    </style>
+
+    <script src="./game.js"></script>
+</body>
+</html>
